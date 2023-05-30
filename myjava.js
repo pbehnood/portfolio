@@ -10,7 +10,7 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = "/images/bruce-cover.jpg";
+  modalImg.src = "https://i.ibb.co/qk3n4TK/bruce-cover.jpg";
   captionText.innerHTML = "this is the caption";
 }
 
