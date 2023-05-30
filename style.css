@@ -111,15 +111,17 @@ margin-top: 15%;
   background-size: cover;
   background-position: center;
   position: relative;
-  width: 45%;
+  width: 48%;
   aspect-ratio: 1/1;
   float: left;
   padding: 0%;
   margin: 1%;
   background-clip: content-box;
   background-origin: content-box;
-  transition: background-image .5s ease-in-out
-  transition: background-color .5s ease-in-out
+  transition: background-image .5s ease-in-out;
+  border-radius: 5%;
+  overflow: hidden;
+
 
 }
 
@@ -194,6 +196,7 @@ margin-top: 15%;
   .casei {
     width: 100%;
     padding: 4% ;
+
   }
 }
 
